@@ -1,5 +1,7 @@
 body {
   margin: 5%;
+  background-image: url('assets/abstract-music-rock-bw.jpg');
+  background-size: 100%;
 }
 
 h1{
@@ -8,19 +10,24 @@ h1{
   font-family: sans-serif;
 }
 
+#header {
+  padding: 5px;
+}
+
 .navigation {
-  width: 60%;
-  text-align: center;
+  width: 200px;
+  float: left;
   margin: 0 auto;
 }
 
 .navigation ul {
+  text-align: center;
 }
 
 .navigation ul li {
-  display: inline;
+  /*display: inline;*/
+  text-decoration: none;
   border-radius: 5px;
-  margin-left: 10px;
   padding: 5px;
   border: 1px solid black;
 }
@@ -47,5 +54,35 @@ h1{
 }
 
 .container {
+  width: 60%;
+  float: left;
   margin: 0 10%;
+}
+
+.session-body {
+  width: 100%;
+  border:2px solid black;
+  margin:10px 0;
+  padding: 10px;
+  background-color: #EEE;
+  border-radius: 10px;
+}
+
+.session-body table {
+  padding: 5px;
+}
+
+.session-body .col-1 {
+  /*clear: left;*/
+  width: 50%;
+  /*float: left;*/
+}
+
+.session-body .col-2 {
+/*  width: 50%;
+  float: right;*/
+}
+
+table td {
+  padding: 0 20px;
 }

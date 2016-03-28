@@ -1,55 +1,26 @@
-'use strict';
-
 angular.module('jam-sessions', [
+    'jam-sessions.services',
     'jam-sessions.sessions',
     'jam-sessions.create',
-    // 'ngRoute'
-    'ui.router'
+    'ngRoute'
   ])
-  .config(function($stateProvider, $urlRouterProvider) {
+  .config(function($routeProvider, $httpProvider) {
 
-    $urlRouterProvider.otherwise('/');
-
-    $stateProvider
-      .state('/', {
-        url: '/',
+    $routeProvider
+      .when('/', {
         templateUrl: 'app/main/main.html',
         controller: 'SessionsController'
       })
-
-      .state('main', {
-        url: '/main',
+      .when('/main', {
         templateUrl: 'app/main/main.html',
         controller: 'SessionsController'
       })
-
-      .state('sessions', {
-        url: '/sessions',
+      .when('/sessions', {
         templateUrl: 'app/sessions/sessions.html',
         controller: 'SessionsController'
       })
-
-      .state('create', {
-        url: '/create',
+      .when('/create', {
         templateUrl: 'app/create/create.html',
         controller: 'CreateController'
       })
-
-    // .when('/', {
-    //   templateUrl: 'app/main/main.html',
-    //   controller: 'SessionsController'
-    // })
-    // .when('/main', {
-    //   templateUrl: 'app/main/main.html',
-    //   controller: 'SessionsController'
-    // })
-    // .when('/sessions', {
-    //   templateUrl: 'app/sessions/sessions.html',
-    //   controller: 'SessionsController'
-    // })
-    // .when('/create', {
-    //   templateUrl: 'app/create/create.html',
-    //   controller: 'CreateController'
-    // })
-
   })
