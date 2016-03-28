@@ -4,9 +4,11 @@ angular.module('jam-sessions.services', [])
   var Sessions = [
     {
       sessionID: 0,
-      name: "Rock Band",
+      sessionName: "Rock Band",
       genre: "Classic Rock",
       host: "Alice",
+      location: "MakerSquare",
+      date: "2016-04-02T20:45:00",
       spots: [
         {
           name: "Bob",
@@ -25,16 +27,18 @@ angular.module('jam-sessions.services', [])
           instrument: "Vocals"
         },
         {
-          name: "Rico",
+          name: "",
           instrument: "Bass Guitar"
         }
       ]
     },
     {
       sessionID: 1,
-      name: "Brass Quintet",
+      sessionName: "Brass Quintet",
       genre: "Classical",
       host: "Rico",
+      location: "MakerSquare",
+      date: "2016-04-22T18:00:00",
       spots: [
         {
           name: "Anthony",

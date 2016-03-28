@@ -1,3 +1,14 @@
 <div id='container'>
   <h2>Create a Session</h2>
+
+  <form>
+    <table>
+      <tr><td>Session Name:</td><td><input type='text' placeholder='Session Name' ng-model='sessionName'></td></tr>
+      <tr><td>Genre:</td><td><input type='text' placeholder='Genre' ng-model='genre'></td></tr>
+      <tr><td>Host:</td><td><input type='text' placeholder='Host' ng-model='host'></td></tr>
+      <tr><td>Location:</td><td><input type='text' placeholder='Location' ng-model='location'></td></tr>
+      <tr><td>Date:</td><td><input type='text' placeholder='Date' ng-model='date'></td></tr>
+      <tr><td><button ng-click='addSpot()'>Add a spot</button></td><td><input type='text' placeholder='Instrument' ng-model='instrument'></td></tr>
+    <table>
+  </form>
 </div>

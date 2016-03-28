@@ -2,13 +2,11 @@ angular.module('jam-sessions.sessions', [])
 .controller('SessionsController', function($scope, Sessions) {
   $scope.data = {}
 
-  $scope.name = ''
-
+  // $scope.name = ''
 
   $scope.getSessions = function(data){
     Sessions.getSessions()
     .then(function(data){
-      console.log("data", data);
       $scope.data = data;
       return data;
     })

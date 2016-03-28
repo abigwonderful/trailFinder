@@ -1,7 +1,7 @@
 body {
   margin: 5%;
-  background-image: url('assets/abstract-music-rock-bw.jpg');
-  background-size: 100%;
+  background: url('assets/abstract-music-rock-bw.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 h1{
@@ -72,13 +72,16 @@ h1{
   padding: 5px;
 }
 
-.session-body .col-1 {
+.col-1 {
   /*clear: left;*/
-  width: 50%;
+  /*position: absolute;*/
+  /*width: 50%;*/
   /*float: left;*/
 }
 
-.session-body .col-2 {
+.col-2 {
+  /*position: absolute;*/
+  /*align: right;*/
 /*  width: 50%;
   float: right;*/
 }
