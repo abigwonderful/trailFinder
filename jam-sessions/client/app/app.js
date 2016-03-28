@@ -1,35 +1,46 @@
 'use strict';
 
 angular.module('jam-sessions', [
-    'jam-sessions.sesions',
+    'jam-sessions.sessions',
     'jam-sessions.create',
-    'ngRoute'
+    // 'ngRoute'
+    'ui.router'
   ])
-  .config(function($routeProvider, $httpProvider){
+  .config(function($stateProvider, $urlRouterProvider) {
 
-    $httpProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/');
 
-    $routeProvider
-      .state('home', {
+    $stateProvider
+      .state('/', {
         url: '/',
-        templateUrl: 'app/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'app/main/main.html',
+        controller: 'SessionsController'
+      })
+
+      .state('main', {
+        url: '/main',
+        templateUrl: 'app/main/main.html',
+        controller: 'SessionsController'
       })
 
       .state('sessions', {
         url: '/sessions',
-        templateUrl: 'app/sessions/sessions.html'
+        templateUrl: 'app/sessions/sessions.html',
         controller: 'SessionsController'
       })
 
       .state('create', {
         url: '/create',
-        templateUrl: 'app/sessions/sessions.html'
+        templateUrl: 'app/create/create.html',
         controller: 'CreateController'
       })
 
     // .when('/', {
-    //   templateUrl: 'app/sessions/sessions.html',
+    //   templateUrl: 'app/main/main.html',
+    //   controller: 'SessionsController'
+    // })
+    // .when('/main', {
+    //   templateUrl: 'app/main/main.html',
     //   controller: 'SessionsController'
     // })
     // .when('/sessions', {
