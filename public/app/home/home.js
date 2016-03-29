@@ -1,14 +1,21 @@
 
-angular.module('trailStats.home', ['trailStats.services'])
+angular.module('trailStats.home', [
+  'trailStats.services',
+  'ngAnimate',
+  'ngSanitize'
+  ])
 
-.controller('HomeController', function ($scope, Trails) {
+.controller('HomeController', function ($scope, $sce, Trails) {
   // Your code here
   $scope.data = {};
   $scope.trails ={};
   $scope.queried = false;
   $scope.expanded = false;
+  $scope.trustHtml = function(elem) {
+    return $sce.trustAsHtml(elem);
+  };
   // $scope.bg = 'biking';
-
+  
   $scope.getTrails = function(){
     $scope.data.city = $scope.trailCity;
     $scope.data.state = $scope.trailState;
@@ -19,9 +26,18 @@ angular.module('trailStats.home', ['trailStats.services'])
 
     Trails.getTrails($scope.data)
       .then(function(trails){
-       console.log('trails', trails);
+        //console.log('trails', trails);
         $scope.trails = trails
         $scope.queried = true;
+        $scope.totalTrails = $scope.trails.length;
+        $scope.totalMiles = Object.keys($scope.trails).map(function(k){
+          return +$scope.trails[k].length;
+        }).reduce(function(a,b){ return a + b },0);
+        var avg = (Object.keys($scope.trails).map(function(k){
+          return +$scope.trails[k].rating;
+        }).reduce(function(a,b){ return a + b },0))/$scope.totalTrails;
+        $scope.avgRating = (Math.round( avg * 10 ) / 10) + '/5'; 
+        
       }).catch(function(err){
         console.log(err);
       })

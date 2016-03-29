@@ -1,6 +1,6 @@
-angular.module('trailStats.services', [])
+angular.module('trailStats.services', ['ngSanitize'])
 
-.factory('Trails', function ($http) {
+.factory('Trails', function ($http,$sce) {
   var type = 'biking';
   // Your code here
   var getTrails = function(params){
@@ -9,9 +9,31 @@ angular.module('trailStats.services', [])
       url: '/api/trails',
       params: params
     })
-    .then(function(resp){
-      console.log(resp)
-      return resp.data
+    .then(function(resp,$sce){
+      var items = [];
+      for (var i = 0; i < resp.data.length; i++) {
+        var obj = {}
+        var item = resp.data[i];
+        obj.name = item.name;
+        obj.unique_id = item.unique_id;
+        obj.directions = item.directions;
+        obj.lat = item.lat;
+        obj.lon = item.lon;
+        for (var j = 0; j < item.activities.length; j++) {
+          if(item.activities[j].activity_type_id == params.type){
+            obj.url = item.activities[j].url;
+            obj.description = item.activities[j].description;
+            obj.length = item.activities[j].length;
+            obj.thumbnail = item.activities[j].thumbnail;
+            obj.rating = item.activities[j].rating;
+          }
+    
+        }
+        items.push(obj)
+
+      }
+      console.log('newArray',items)
+      return items
     })
 
   }

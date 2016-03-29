@@ -47,6 +47,12 @@ h2,h3,h4,.home-button{
 .callout{
   overflow: hidden;
 }
-.callout img{
 
+.show-hide {
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+}
+
+.show-hide.ng-hide {
+  opacity:0;
 }

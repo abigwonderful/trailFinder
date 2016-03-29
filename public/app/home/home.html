@@ -24,28 +24,53 @@
     </div>
   </div>
 </div>
-<div ng-hide="!queried" class="row">
+<div ng-hide="!queried" class="row show-hide">
   <button class="button" ng-click="queried = !queried">Search Again</button>
 </div>
 <div class="row">
   <div class="trail-container">
-    <div ng-repeat="trail in trails" ng-click="expand(trail.unique_id)">
+    <div class="row show-hide" ng-show="queried">
+      <div class="callout secondary text-center">
+        <div class="small-4 columns">
+          <span class="success label">Total</span>
+          <h3>{{ totalTrails }}</h3>
+          <span>Trails</span>
+        </div>
+        <div class="small-4 columns">
+          <span class="success label">Total</span>
+          <h3>{{ totalMiles }}</h3>
+          <span>Miles</span>
+        </div>
+        <div class="small-4 columns">
+          <span class="success label">Average</span>
+          <h3>{{ avgRating }}</h3>
+          <span>Rating</span>
+        </div>
+      
+        
+      </div>
+
+    </div>
+    <div ng-show="queried" class="show-hide" ng-repeat="trail in trails">
       <div class="row">
         <div class="callout secondary">
           <div class="small-12 columns">
-            <h3>{{trail.name}}</h3>
-            <div class="row" ng-repeat="activity in trail.activities">
+            <h3 ng-bind-html="trustHtml(trail.name)"></h3>
+            <div class="row">
               <div class="small-4 columns">
-                <img src="{{activity.thumbnail}}" />
-                <div class="more-info" ng-if="expanded">
-                  <p>{{activity.length}} Miles</p>
-                  <p><Strong>Directions</Strong>: {{activity.directions}}</p>
-                  <a class="button" href="{{activity.url}}" target="blank">More Info</a>
-                </div>
+                <img src="{{trail.thumbnail}}" />                
               </div>
               <div class="small-8 columns">
-                <p>{{activity.description}}</p>
+                <h4>Description</h4>
+                <p ng-bind-html="trustHtml(trail.description)"></p>
+                <p>{{trail.length}} Miles</p>
+                <h4>Directions</h4>
+                <p ng-bind-html="trustHtml(trail.directions)"></p>
+                <a class="button" href="{{trail.url}}" target="blank">More Info</a>
               </div>
+            </div>
+            <div class="row">
+              
             </div>
           </div>
         </div>

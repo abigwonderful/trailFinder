@@ -1,0 +1,21 @@
+{
+  "name": "myapp",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Sam Fitz <abigwonderful@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/makersquare/ATX-mvp",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ngmap": "^1.16.7"
+  }
+}
