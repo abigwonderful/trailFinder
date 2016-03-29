@@ -1,0 +1,742 @@
+{
+  "places": [
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Shadow Mountain",
+      "parent_id": null,
+      "unique_id": 4189,
+      "directions": "From Jackson, go North towards Grand Teton NP on 191.  Turn right (east) on Gros Ventre road towards Kelly.  Stay on Gros Ventre road past Kelly.  Past Kelly, the Gros Ventre road turns right towards the Gros Ventre slide - stay straight the road becomes Antelope Flats Road.   The road will eventually become Shadow Mountain road and junction with a Nationla Forest Service road and small parking lot.",
+      "lat": 0,
+      "lon": 0,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": [
+        {
+          "name": "Shadow Mountain",
+          "unique_id": "1-2735",
+          "place_id": 4189,
+          "activity_type_id": 5,
+          "activity_type_name": "mountain biking",
+          "url": "http://www.singletracks.com/item.php?c=1&i=2735",
+          "attribs": {
+            "\"length\"": "\"12\"",
+            "\"nightride\"": "null"
+          },
+          "description": "Start your ride up the dirt road (Shadow mountain road) for about 5 miles - not an exceptionally tough climb and the views of the Teton range rising up over the valley and the wildflowers make the scenery absolutely spectacular. (There is plenty of camping up this road also).  Once at the top look for the singletrack to your left.  This is a fast fun - not very techical singletrack that will drop you just to the north of the original parking lot.  There is a fire tower somewhere on top of Shadow Mountain - I just didn't happen to look for it.",
+          "length": 12,
+          "activity_type": {
+            "created_at": "2012-08-15T16:12:35Z",
+            "id": 5,
+            "name": "mountain biking",
+            "updated_at": "2012-08-15T16:12:35Z"
+          },
+          "thumbnail": null,
+          "rank": null,
+          "rating": 4
+        },
+        {
+          "name": "Shadow Mountain",
+          "unique_id": "2-7961",
+          "place_id": 4189,
+          "activity_type_id": 2,
+          "activity_type_name": "hiking",
+          "url": "http://www.tripleblaze.com/trail.php?c=3&i=7961",
+          "attribs": {
+            "\"length\"": "\"12\""
+          },
+          "description": "Shadow Mountain is a 12 mile hiking trail in Jackson, Wyoming.",
+          "length": 12,
+          "activity_type": {
+            "created_at": "2012-08-15T16:12:21Z",
+            "id": 2,
+            "name": "hiking",
+            "updated_at": "2012-08-15T16:12:21Z"
+          },
+          "thumbnail": null,
+          "rank": null,
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Snow King Resort Trail System",
+      "parent_id": null,
+      "unique_id": 4191,
+      "directions": "The resort looms above Jackson, all you have to do is go down to the end of Cache Dr.  Park at the ski resort parking lot at the bottom of the lift.",
+      "lat": 43.47124,
+      "lon": -110.76225,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": [
+        {
+          "name": "Snow King Resort Trail System",
+          "unique_id": "1-2766",
+          "place_id": 4191,
+          "activity_type_id": 5,
+          "activity_type_name": "mountain biking",
+          "url": "http://www.singletracks.com/item.php?c=1&i=2766",
+          "attribs": {
+            "\"length\"": "\"20\"",
+            "\"nightride\"": "1"
+          },
+          "description": "Start off on a steep doubletrack climb up the front of the resort.  There are singletrack loops branching off as you go up.  If you continue all the way to the top, follow the signs to the, I believe it was the Wilson Canyon loop.  That was the section of the trail that I rode, but there are many different single track loop options out there.  According to a map in a bike shop in town, Wilson Canyon was the most technically challenging ride, rated an &quot;expert.&quot;  It was no big deal, but it was a decent downhill.  Nothing world class, but it is right in Jackson.<br /><br />So when you get down to the highway, cross it, hang a right on the bike path and take that back to Jackson.",
+          "length": 20,
+          "activity_type": {
+            "created_at": "2012-08-15T16:12:35Z",
+            "id": 5,
+            "name": "mountain biking",
+            "updated_at": "2012-08-15T16:12:35Z"
+          },
+          "thumbnail": "http://images.singletracks.com/2012/06/puttputt-125-0.jpg",
+          "rank": null,
+          "rating": 4
+        },
+        {
+          "name": "Snow King",
+          "unique_id": "6-772",
+          "place_id": 4191,
+          "activity_type_id": 9,
+          "activity_type_name": "snow sports",
+          "url": "http://www.snowtoit.com/trail.php?c=73&i=772",
+          "attribs": {
+            "\"type\"": "\"Lift-serviced \\/ Resort\""
+          },
+          "description": "Snow King sits at a summit elevation of 7,808 feet and skiers and snowboarders experience a vertical drop of 1,571 feet. Snow King also has plenty of other winter activities for visitors.<br /><br />Snow King has 400 acres of skiable terrain, 150 of which are supplemented by snowmaking and 300 acres are groomed. <br /><br />There are approximately 26 trails rated 15% beginner, 25% intermediate, and 60% advanced. 5 lifts service the trails. Trails include Belly Roll, Holy Land, and Cut Off.",
+          "length": 0,
+          "activity_type": {
+            "created_at": "2012-08-15T17:33:19Z",
+            "id": 9,
+            "name": "snow sports",
+            "updated_at": "2012-08-15T17:33:19Z"
+          },
+          "thumbnail": "http://images.snowtoit.com/2011/10/772-0.jpg",
+          "rank": null,
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Jackson Hole Mountain Resort",
+      "parent_id": null,
+      "unique_id": 4192,
+      "directions": "Its Jackson Hole...  Follow the sings from Jackson towards Teton Village",
+      "lat": 43.58671,
+      "lon": -110.82671,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": [
+        {
+          "name": "Jackson Hole Mountain Resort",
+          "unique_id": "1-2767",
+          "place_id": 4192,
+          "activity_type_id": 5,
+          "activity_type_name": "mountain biking",
+          "url": "http://www.singletracks.com/item.php?c=1&i=2767",
+          "attribs": {
+            "\"length\"": "\"20\"",
+            "\"nightride\"": "1"
+          },
+          "description": "There are a variety of options available.   There are a number of beginner/intermediate loops cross country lower down on the mountain.  The trails aren't very challenging, but they are very well constructed singletrack.  <br />There is also a beginner terrain park with some log ride obstacles, jumps, berms, and a small wooden table top.  <br /><br />And then there's the Gondola summit trail.  The first 2 miles are sweet singletrack with some sweet berms, the next mile is decent doubletrack, and then the last mile mile and a half or so is just a gravel road.  Its a pretty steep climb, and especially on the road there is a lot of people, but the views are worth it!  And its definitely a good ride  back down...  thats why you're sweating buckets on the way up, right?",
+          "length": 20,
+          "activity_type": {
+            "created_at": "2012-08-15T16:12:35Z",
+            "id": 5,
+            "name": "mountain biking",
+            "updated_at": "2012-08-15T16:12:35Z"
+          },
+          "thumbnail": "http://images.singletracks.com/2013/08/Teton-0.jpg",
+          "rank": null,
+          "rating": 4.14
+        },
+        {
+          "name": "Jackson Hole",
+          "unique_id": "6-770",
+          "place_id": 4192,
+          "activity_type_id": 9,
+          "activity_type_name": "snow sports",
+          "url": "http://www.snowtoit.com/trail.php?c=73&i=770",
+          "attribs": {
+            "\"type\"": "\"Lift-serviced \\/ Resort\""
+          },
+          "description": "Located in the beautiful Grand Teton National Park, Jackson Hole Mountain Resort offers skiers and snowboarders two high altitude peaks and plenty of snow for all skill levels. <br /><br />The resort receives 459 inches of average annual snowfall over the 2,500 acres of in-bounds skiable terrain. Snowmaking supplements 195 acres of terrain. <br /><br />12 lifts take skiers and snowboards up the mountains at an uphill capacity of 16,733 people per hour. They then descend from a summit elevation 10,450 feet down a vertical drop of 4,139 feet. <br /><br />Over the two peaks, skiers and snowboarders have access to 116 named trails and over 3,000 acres of backwoods terrain. The trails are rated 10% beginner, 40% intermediate, and 50% expert. Trails include Tensleep, Lupine Way, and Moose Alley.",
+          "length": 0,
+          "activity_type": {
+            "created_at": "2012-08-15T17:33:19Z",
+            "id": 9,
+            "name": "snow sports",
+            "updated_at": "2012-08-15T17:33:19Z"
+          },
+          "thumbnail": "http://images.snowtoit.com/2011/10/770-0.jpg",
+          "rank": null,
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Jackson Bike Path",
+      "parent_id": null,
+      "unique_id": 4199,
+      "directions": "You can hook up with it at several points in Jackson, including near the Snow King resort.",
+      "lat": 43.46862,
+      "lon": -110.76279,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": [
+        {
+          "name": "Jackson Bike Path",
+          "unique_id": "1-3575",
+          "place_id": 4199,
+          "activity_type_id": 5,
+          "activity_type_name": "mountain biking",
+          "url": "http://www.singletracks.com/item.php?c=1&i=3575",
+          "attribs": {
+            "\"length\"": "\"10\"",
+            "\"nightride\"": "1"
+          },
+          "description": "This well built trail loops all through Jackson, and has several different spurs.  You can ride it as is, OR it is better served to make a loop out of some of the back reaches of the Snow King resort.",
+          "length": 10,
+          "activity_type": {
+            "created_at": "2012-08-15T16:12:35Z",
+            "id": 5,
+            "name": "mountain biking",
+            "updated_at": "2012-08-15T16:12:35Z"
+          },
+          "thumbnail": null,
+          "rank": null,
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "city": "Jackson/moose",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Shadow Mountain",
+      "parent_id": null,
+      "unique_id": 4213,
+      "directions": "Turn right onto Antelope Flats road which is just north of the Moose &lt;br /&gt;&lt;br /&gt;entrance into GTNP.  When the road comes to a T intersection turn left.  As &lt;br /&gt;&lt;br /&gt;you continue on the road you will see a house on your right not much &lt;br /&gt;&lt;br /&gt;further there will be a large parking/camping area on your right.  Park by &lt;br /&gt;&lt;br /&gt;the large forest service communication sign.  You will be going up the forest &lt;br /&gt;&lt;br /&gt;service to the right of the parking area.  Continue up the road for a little &lt;br /&gt;&lt;br /&gt;over 3 miles.  The trail will be at the top on the left.  Unsiged but the only &lt;br /&gt;&lt;br /&gt;single track trail in the area.  Fairly flat on top where it starts.  Follow it &lt;br /&gt;&lt;br /&gt;down when you come to a double track take a right and follow it to a road &lt;br /&gt;&lt;br /&gt;under the power lines.  At the junction go left and head back to your car.",
+      "lat": 43.70384,
+      "lon": -110.62232,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": [
+        {
+          "name": "Shadow Mountain",
+          "unique_id": "1-5341",
+          "place_id": 4213,
+          "activity_type_id": 5,
+          "activity_type_name": "mountain biking",
+          "url": "http://www.singletracks.com/item.php?c=1&i=5341",
+          "attribs": {
+            "\"length\"": "\"7\"",
+            "\"nightride\"": "null"
+          },
+          "description": "Trail has a steady climb over 3 miles of a forest service road.  Then one of the &lt;br /&gt;<br />best mixes of single track around.  Trail drops about 1400' of elevation over 3 &lt;br /&gt;<br />miles.  Has tight S turns, root drops, and small rock sections.   Great &lt;br /&gt;<br />combination of all.",
+          "length": 7,
+          "activity_type": {
+            "created_at": "2012-08-15T16:12:35Z",
+            "id": 5,
+            "name": "mountain biking",
+            "updated_at": "2012-08-15T16:12:35Z"
+          },
+          "thumbnail": "http://images.singletracks.com/2012/09/shadow2-0.jpg",
+          "rank": null,
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Lower Face Loop",
+      "parent_id": null,
+      "unique_id": 5250,
+      "directions": "This is at Jackson Hole Ski Resort at Teton Village, Wyoming. Follow the signs from Jackson.",
+      "lat": 0,
+      "lon": 0,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": []
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Snow King Trail",
+      "parent_id": null,
+      "unique_id": 5251,
+      "directions": " The resort looms above Jackson, all you have to do is go down to the end of Cache Dr. Park at the ski resort parking lot at the bottom of the lift.",
+      "lat": 0,
+      "lon": 0,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": []
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Teewinot Run",
+      "parent_id": null,
+      "unique_id": 5252,
+      "directions": "This is at Jackson Hole Ski Resort at Teton Village, Wyoming. Follow the signs from Jackson.",
+      "lat": 0,
+      "lon": 0,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": []
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Gondola Trail",
+      "parent_id": null,
+      "unique_id": 5253,
+      "directions": "This is at Jackson Hole Ski Resort at Teton Village, Wyoming.  Follow the signs from Jackson.",
+      "lat": 0,
+      "lon": 0,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": []
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Solitude",
+      "parent_id": null,
+      "unique_id": 5254,
+      "directions": "This is at Jackson Hole Ski Resort at Teton Village, Wyoming. Follow the signs from Jackson.",
+      "lat": 0,
+      "lon": 0,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": []
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Bronco",
+      "parent_id": null,
+      "unique_id": 5255,
+      "directions": "This is at Jackson Hole Ski Resort at Teton Village, Wyoming. Follow the signs from Jackson.",
+      "lat": 0,
+      "lon": 0,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": []
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Saratoga Loop",
+      "parent_id": null,
+      "unique_id": 5256,
+      "directions": "This is at Jackson Hole Ski Resort at Teton Village, Wyoming. Follow the signs from Jackson.",
+      "lat": 0,
+      "lon": 0,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": []
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Moose Alley",
+      "parent_id": null,
+      "unique_id": 5257,
+      "directions": "This is at Jackson Hole Ski Resort at Teton Village, Wyoming. Follow the signs from Jackson.&lt;br /&gt;&lt;br /&gt;",
+      "lat": 0,
+      "lon": 0,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": []
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Wilson's Canyon",
+      "parent_id": null,
+      "unique_id": 5258,
+      "directions": " The resort looms above Jackson, all you have to do is go down to the end of Cache Dr. Park at the ski resort parking lot at the bottom of the lift.",
+      "lat": 43.42181,
+      "lon": -110.77432,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": []
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Five Way Meadow",
+      "parent_id": null,
+      "unique_id": 5259,
+      "directions": " The resort looms above Jackson, all you have to do is go down to the end of Cache Dr. Park at the ski resort parking lot at the bottom of the lift.",
+      "lat": 0,
+      "lon": 0,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": []
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Cascade Canyon Trail",
+      "parent_id": null,
+      "unique_id": 5542,
+      "directions": "From Jackson, WY follow HWY 191 North to Moose.  Turn left into the main part of the park. Jenny Lake is located on the left side of the road, with plenty of parking.  The trailhead and boat shuttles are located on the south side of the lake.",
+      "lat": 43.751211,
+      "lon": -110.722972,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": [
+        {
+          "name": "Cascade Canyon Trail",
+          "unique_id": "2-1756",
+          "place_id": 5542,
+          "activity_type_id": 2,
+          "activity_type_name": "hiking",
+          "url": "http://www.tripleblaze.com/trail.php?c=3&i=1756",
+          "attribs": {
+            "\"length\"": "\"7\""
+          },
+          "description": "This is popular trail within Grand Teton National Park.  The trail follows the south side of the lake for several miles, then turns up canyon to the 200 ft Hidden Falls. Proceeding past Hidden falls can leads to inspiration point, which offers views of the lake.  There is an optional boat shuttle service that bypasses the trail along the lake and drops passengers about 0.5 miles from the base of Hidden Falls.",
+          "length": 7,
+          "activity_type": {
+            "created_at": "2012-08-15T16:12:21Z",
+            "id": 2,
+            "name": "hiking",
+            "updated_at": "2012-08-15T16:12:21Z"
+          },
+          "thumbnail": "http://images.tripleblaze.com/2011/08/686-0.jpg",
+          "rank": null,
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Jenny Lake Trail",
+      "parent_id": null,
+      "unique_id": 5613,
+      "directions": "From Jackson WY, proceed North through Grand Teton National Park.  At Moose Junction, turn left and proceed west to the park entrance. At Jenny Lake junction, follow the signs to Jenny Lake Visitor Center and boat docks.  Trailhead is located adjacent to the boat docks.",
+      "lat": 43.751042,
+      "lon": -110.723745,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": [
+        {
+          "name": "Jenny Lake Trail",
+          "unique_id": "2-2147",
+          "place_id": 5613,
+          "activity_type_id": 2,
+          "activity_type_name": "hiking",
+          "url": "http://www.tripleblaze.com/trail.php?c=3&i=2147",
+          "attribs": {
+            "\"length\"": "\"7\""
+          },
+          "description": "The Jenny Lake trail follows the outline of Jenny lake for the entire circumference. The first two miles are shared with Cascade Canyon Trail, and it breaks off as Cascade Canyon Trail turns up the canyon to Hidden Falls.  Jenny Lake trail continues around the remainder of the lake, including crossing the River between Jenny Lake and String Lake with a branch trail proceeding to String Lake.",
+          "length": 7,
+          "activity_type": {
+            "created_at": "2012-08-15T16:12:21Z",
+            "id": 2,
+            "name": "hiking",
+            "updated_at": "2012-08-15T16:12:21Z"
+          },
+          "thumbnail": null,
+          "rank": null,
+          "rating": 3.5
+        }
+      ]
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Teton Crest Trail",
+      "parent_id": null,
+      "unique_id": 5621,
+      "directions": "String Lake trailhead, or Teton Pass on highway 22. Multiple other access points include Cascade Canyon Trail, Death Canyon Trail, Open Canyon Trail, Granite Canyon Trail, and trails or gondola from Teton Village.",
+      "lat": 0,
+      "lon": 0,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": [
+        {
+          "name": "Teton Crest Trail",
+          "unique_id": "2-2192",
+          "place_id": 5621,
+          "activity_type_id": 2,
+          "activity_type_name": "hiking",
+          "url": "http://www.tripleblaze.com/trail.php?c=3&i=2192",
+          "attribs": {
+            "\"length\"": "\"39\""
+          },
+          "description": "A multi day trek that follows the Teton spine on its western side. Jaw dropping views, snow possible nearly year round, tremendous wildlife.",
+          "length": 39,
+          "activity_type": {
+            "created_at": "2012-08-15T16:12:21Z",
+            "id": 2,
+            "name": "hiking",
+            "updated_at": "2012-08-15T16:12:21Z"
+          },
+          "thumbnail": "http://images.tripleblaze.com/2011/08/538-0.jpg",
+          "rank": null,
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Continental Divide Trail: Wyoming",
+      "parent_id": null,
+      "unique_id": 6383,
+      "directions": "WY",
+      "lat": 41.00297,
+      "lon": -106.876377,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": [
+        {
+          "name": "Continental Divide Trail: Wyoming",
+          "unique_id": "2-3203",
+          "place_id": 6383,
+          "activity_type_id": 2,
+          "activity_type_name": "hiking",
+          "url": "http://www.tripleblaze.com/trail.php?c=3&i=3203",
+          "attribs": {
+            "\"length\"": "\"500\""
+          },
+          "description": "The Continental Divide Trail is 3,100 miles long, stretching from Mexico to Canada and roughly following the continental divide. It is a part of the Triple Crown of long distance hiking trails in the US, along with the Pacific Crest Trail and Appalachian Trail. It is still under construction, so sections of it are constantly changing. The information posted here on Tripleblaze is the most up-to-date available, but these trail descriptions and GPS locations may become obsolete at some point in the future. If you notice any obsolete information, always feel free to post a review with the new info!<br /><br />Whenever possible, the Google Maps location given for each section of trail will be for the most southern point. All sections are numbered in a south-to-north fashion.<br /><br />The Wyoming section of the CDT runs about 500 miles from the Colorado border to the Idaho border.<br /><br />To follow the trail to the south, click on over to the &lt;a href=&quot;http://www.tripleblaze.com/3/3197/Colorado/Continental-Divide-Trail--Colorado.html&quot;&gt;Colorado section&lt;/a&gt;. To follow the trail to the North, click on over to the &lt;a href=&quot;http://www.tripleblaze.com/3/3202/Idaho/Continental-Divide-Trail--Idaho.html&quot;&gt;Idaho section&lt;/a&gt;.",
+          "length": 500,
+          "activity_type": {
+            "created_at": "2012-08-15T16:12:21Z",
+            "id": 2,
+            "name": "hiking",
+            "updated_at": "2012-08-15T16:12:21Z"
+          },
+          "thumbnail": null,
+          "rank": null,
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Gros Ventre Campground",
+      "parent_id": null,
+      "unique_id": 9214,
+      "directions": "From Jackson, Wy, Drive North along HWY 89 for several miles.  After entering Grand Teton National Park, take the first main road to the right, which is Gros Ventre Rd.  Follow for several miles, campground is located on the right and is indicated by signs.",
+      "lat": 43.616567,
+      "lon": -110.666571,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": [
+        {
+          "name": "Gros Ventre Campground",
+          "unique_id": "3-3625",
+          "place_id": 9214,
+          "activity_type_id": 6,
+          "activity_type_name": "camping",
+          "url": "http://www.tripleblaze.com/trail.php?c=2&i=3625",
+          "attribs": {
+            "\"length\"": "\"3\""
+          },
+          "description": "A large campground located within the southern region of Grand Teton National Park along the Gros Ventre River.  The campground is set amongst sage and cottonwood and has designated loops for tent only camping.",
+          "length": 3,
+          "activity_type": {
+            "created_at": "2012-08-15T17:31:31Z",
+            "id": 6,
+            "name": "camping",
+            "updated_at": "2012-08-15T17:31:31Z"
+          },
+          "thumbnail": null,
+          "rank": null,
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Flagg Ranch Campground",
+      "parent_id": null,
+      "unique_id": 9217,
+      "directions": "Located between Grand Teton National Park and Yellowstone National Park on the west side of the highway.",
+      "lat": 44.1056,
+      "lon": -110.66818,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": [
+        {
+          "name": "Flagg Ranch Campground",
+          "unique_id": "3-3628",
+          "place_id": 9217,
+          "activity_type_id": 6,
+          "activity_type_name": "camping",
+          "url": "http://www.tripleblaze.com/trail.php?c=2&i=3628",
+          "attribs": {
+            "\"length\"": "\"3\""
+          },
+          "description": "Privately owned campground located between Grand Teton National Park and Yellowstone National Park, along the John D Rockefeller National Parkway.  The campground is nestled amongst pine forests.",
+          "length": 3,
+          "activity_type": {
+            "created_at": "2012-08-15T17:31:31Z",
+            "id": 6,
+            "name": "camping",
+            "updated_at": "2012-08-15T17:31:31Z"
+          },
+          "thumbnail": null,
+          "rank": null,
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "city": "Jackson",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Lizard Creek Campground",
+      "parent_id": null,
+      "unique_id": 13617,
+      "directions": "Located on the north end of Jackson Lake in the Grand Teton National Park",
+      "lat": 43.985478,
+      "lon": -110.665721,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": [
+        {
+          "name": "Lizard Creek Campground",
+          "unique_id": "3-8037",
+          "place_id": 13617,
+          "activity_type_id": 6,
+          "activity_type_name": "camping",
+          "url": "http://www.tripleblaze.com/trail.php?c=2&i=8037",
+          "attribs": {
+            "\"length\"": "\"3\""
+          },
+          "description": "At the north end of Grand Teton National Park, about 32 miles north of Moose, has 60 sites. A less heavily developed campground with sites in the spruce and fir forest. One side of the campgound is adjacent to and slightly above Jackson Lake. Vehicle size limited to 30 feet. (taken from National Park Service website)",
+          "length": 3,
+          "activity_type": {
+            "created_at": "2012-08-15T17:31:31Z",
+            "id": 6,
+            "name": "camping",
+            "updated_at": "2012-08-15T17:31:31Z"
+          },
+          "thumbnail": null,
+          "rank": null,
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "city": "Jackson Wy",
+      "state": "Wyoming",
+      "country": "United States",
+      "name": "Cache Creek To Game Creek",
+      "parent_id": null,
+      "unique_id": 14345,
+      "directions": "Trail starts at the end of Cache Creek rd in Jackson WY.  Trail ends at the Game &lt;br /&gt;&lt;br /&gt;Creek trailhead  on Game Creek rd south of Jackson.",
+      "lat": 43.46565,
+      "lon": -110.732,
+      "description": null,
+      "date_created": null,
+      "children": [],
+      "activities": [
+        {
+          "name": "Cache Creek To Game Creek",
+          "unique_id": "1-5619",
+          "place_id": 14345,
+          "activity_type_id": 5,
+          "activity_type_name": "mountain biking",
+          "url": "http://www.singletracks.com/item.php?c=1&i=5619",
+          "attribs": {
+            "\"length\"": "\"10\"",
+            "\"nightride\"": "1"
+          },
+          "description": "There are some variation of trails at Cache creek that tie in with the Snow &lt;br /&gt;<br />King trails.  Easiest is to follow the dirt road from the parking lot which will &lt;br /&gt;<br />eventually turn into some double track and then single track. Depending on &lt;br /&gt;<br />which parking lot you had to park at around 3.8 there will be a junction to &lt;br /&gt;<br />go right towards Game Creek.  There is a bridge just as you turn right then &lt;br /&gt;<br />you begin a steep climb up to Game Creek divide.  From the top of the &lt;br /&gt;<br />divide it is all downhill back to the car at Game creek roughly another 6 &lt;br /&gt;<br />miles.  Single track all the way except maybe the last mile which is &lt;br /&gt;<br />dirt/gravel rd.  You can ride it as a loop if you have time.  Still start at Cache &lt;br /&gt;<br />Creek trailhead but when you get to the end at Game Creek head right &lt;br /&gt;<br />back to the highway.  Cross the highway and take the paved bike path &lt;br /&gt;<br />back to town or just make it an out n back.",
+          "length": 10,
+          "activity_type": {
+            "created_at": "2012-08-15T16:12:35Z",
+            "id": 5,
+            "name": "mountain biking",
+            "updated_at": "2012-08-15T16:12:35Z"
+          },
+          "thumbnail": "http://images.singletracks.com/2014/06/IMG_1138.jpg",
+          "rank": null,
+          "rating": 5
+        },
+        {
+          "name": "Cache Creek To Game Creek",
+          "unique_id": "2-8003",
+          "place_id": 14345,
+          "activity_type_id": 2,
+          "activity_type_name": "hiking",
+          "url": "http://www.tripleblaze.com/trail.php?c=3&i=8003",
+          "attribs": {
+            "\"length\"": "\"10\""
+          },
+          "description": "Cache Creek To Game Creek is a 10 mile hiking trail in Jackson, Wyoming.",
+          "length": 10,
+          "activity_type": {
+            "created_at": "2012-08-15T16:12:21Z",
+            "id": 2,
+            "name": "hiking",
+            "updated_at": "2012-08-15T16:12:21Z"
+          },
+          "thumbnail": null,
+          "rank": null,
+          "rating": 0
+        }
+      ]
+    }
+  ]
+}
