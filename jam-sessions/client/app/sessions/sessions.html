@@ -1,0 +1,35 @@
+<div id='container'>
+  <h2>Join a Session</h2>
+
+  <p>Your name: </p>
+  <form name='username'>
+    <input type='text' placeholder='Enter Your Name' ng-model='name'>
+  </form>
+
+  <div class='session-body container' ng-repeat='session in data'>
+
+    <div class="col-sm-6">
+      <p>Name: {{session.sessionName}}<p>
+      <p>Genre: {{session.genre}}</p>
+      <p>Host: {{session.host}}</p>
+      <p>Location: {{session.location}}</p>
+      <p>Date: {{session.date}}</p>
+    </div>
+
+    <div class="col-sm-6">
+      <table>
+        <thead>Spots Available: </thead>
+        <tr ng-repeat='spot in session.spots'>
+          <td>{{spot.instrument}}</td>
+          <td ng-if='spot.name'>: {{spot.name}}</td>
+          <td ng-if='!spot.name'>
+            <form name="signupForm" ng-submit='signup(session, spot)'>
+              <!-- <input type='text' placeholder='Enter Name' ng-model='text'> -->
+              <input type='submit' id='submit' value='Join this session'>
+            </form>
+          </td>
+        <tr>
+      </table>
+    </div>
+  </div>
+</div>
