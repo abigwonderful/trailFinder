@@ -2,12 +2,16 @@ doctype html
 html(ng-app='trailStats')
   head
     title= title
+    link(rel='stylesheet', href='/stylesheets/foundation.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href='https://fonts.googleapis.com/css?family=Roboto:400,900', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Permanent+Marker', rel='stylesheet', type='text/css')
 
-  body
+  body(ng-controller="BaseController", ng-class=" {'hike' : isActive()}")
     block content
     script(src='/js/angular.min.js')
     script(src='/js/angular-ui-router.js')
     script(src='/app/trails/trails.js')
+    script(src='/app/home/home.js')
     script(src='/app/services/services.js')
     script(src='/app/app.js')

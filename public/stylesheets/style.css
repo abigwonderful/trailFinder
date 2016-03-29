@@ -1,8 +1,52 @@
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+   background: url(../images/downhill.jpg) no-repeat center center fixed;   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+.hiking{ 
+  background: url(../images/hiking.jpg) no-repeat center center fixed;   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
 
 a {
   color: #00B7FF;
+}
+h1{
+  font-family: 'Permanent Marker', cursive;
+  color: #fff;
+  display: block;
+  padding: 10px 0 10px 80px;
+  background: url(../images/logo2.png) no-repeat left center;
+  background-size: 65px;
+  width: 450px;
+  margin: 20px auto;
+}
+h2,h3,h4,.home-button{
+  font-family: 'Roboto', serif;
+  font-weight: 900;
+}
+.home-button{
+  1.5em;
+}
+.banner{
+  margin-bottom: 200px;
+}
+.query{
+  margin-top: 100px;
+  padding: 30px;
+  margin: 0 auto 20px;
+  background: rgba(255,255,255, .75)
+}
+.more-info{
+  clear:left;
+}
+.callout{
+  overflow: hidden;
+}
+.callout img{
+
 }

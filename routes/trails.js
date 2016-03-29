@@ -11,20 +11,31 @@ router.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 /* GET trails. */
 router.get('/', function(req, res, next) {
-
-  var city = req.query.city;
-  var state = req.query.state;
-  var type = req.query.type;
-  console.log(city,state,type)
-  axios({
-    method: 'get',
-    url: 'https://trailapi-trailapi.p.mashape.com/?q[city_cont]=' + city + '&q[state_cont]=' + state + '&q[activities_activity_type_id_eq]=' + type,
-    headers: {'X-Mashape-Key': key}
-  })
-  .then(function(allTrails){
-    //console.log('we got the data',allTrails)
-    res.json(allTrails.data.places);
-  })
+  if(req.query.unique_id){
+    axios({
+      method: 'get',
+      url: 'https://trailapi-trailapi.p.mashape.com/?q[unique_id_eq]=' + req.query.unique_id,
+      headers: {'X-Mashape-Key': key}
+    })
+    .then(function(allTrails){
+      //console.log('we got the data',allTrails)
+      res.json(allTrails.data.places);
+    })
+  } else {
+    var city = req.query.city;
+    var state = req.query.state;
+    var type = req.query.type;
+    // console.log(city,state,type)
+    axios({
+      method: 'get',
+      url: 'https://trailapi-trailapi.p.mashape.com/?q[city_cont]=' + city + '&q[state_cont]=' + state + '&q[activities_activity_type_id_eq]=' + type,
+      headers: {'X-Mashape-Key': key}
+    })
+    .then(function(allTrails){
+      //console.log('we got the data',allTrails)
+      res.json(allTrails.data.places);
+    })
+  }
 });
 
 

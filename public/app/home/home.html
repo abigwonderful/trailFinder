@@ -1,0 +1,56 @@
+<div ng-hide="queried" class="row">
+  <div class="small-8 small-centered">
+    <div class="query">
+      <div class="row">
+        <div class="small-4 columns">
+          <label for="city">City:</label>
+          <input ng-model="trailCity" name="city" type="text" placeholder="City">
+        </div>
+        <div class="small-4 columns">
+          <label for="state">State: </label>
+          <input ng-model="trailState" type="text"name="state" placeholder="State">
+        </div>
+        <div class="small-4 columns">
+          <label for="type">Type:</label>
+          <select ng-model="trailType" name="type">
+            <option value="2">Hiking</option>
+            <option value="5" selected>Biking</option>
+          </select>
+        </div>
+        <div class="small-12 columns">
+          <button class="button expanded home-button" ng-click='getTrails()'>Check Trails</button>
+        </div>
+      </div>  
+    </div>
+  </div>
+</div>
+<div ng-hide="!queried" class="row">
+  <button class="button" ng-click="queried = !queried">Search Again</button>
+</div>
+<div class="row">
+  <div class="trail-container">
+    <div ng-repeat="trail in trails" ng-click="expand(trail.unique_id)">
+      <div class="row">
+        <div class="callout secondary">
+          <div class="small-12 columns">
+            <h3>{{trail.name}}</h3>
+            <div class="row" ng-repeat="activity in trail.activities">
+              <div class="small-4 columns">
+                <img src="{{activity.thumbnail}}" />
+                <div class="more-info" ng-if="expanded">
+                  <p>{{activity.length}} Miles</p>
+                  <p><Strong>Directions</Strong>: {{activity.directions}}</p>
+                  <a class="button" href="{{activity.url}}" target="blank">More Info</a>
+                </div>
+              </div>
+              <div class="small-8 columns">
+                <p>{{activity.description}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
