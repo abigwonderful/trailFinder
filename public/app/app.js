@@ -2,7 +2,8 @@ angular.module('trailStats', [
   'trailStats.trails',
   'trailStats.home',
   'trailStats.services',
-  'ui.router'
+  'ui.router',
+  'ngMap'
 ])
 .config(function($stateProvider, $urlRouterProvider) {
   //$urlRouterProvider.otherwise('/');
@@ -19,8 +20,12 @@ angular.module('trailStats', [
     });
 
 })
-.controller('BaseController', function($scope,Trails){
- 
+.controller('BaseController', function(NgMap) {
+  NgMap.getMap().then(function(map) {
+    console.log(map.getCenter());
+    console.log('markers', map.markers);
+    console.log('shapes', map.shapes);
+  });
 })
 .run(function(){
   console.log('up and running')

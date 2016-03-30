@@ -10,6 +10,7 @@ angular.module('trailStats.home', [
   $scope.data = {};
   $scope.trails ={};
   $scope.queried = false;
+  $scope.viewMap = false;
   $scope.expanded = false;
   $scope.trustHtml = function(elem) {
     return $sce.trustAsHtml(elem);

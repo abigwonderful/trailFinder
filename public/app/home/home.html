@@ -58,7 +58,14 @@
             <h3 ng-bind-html="trustHtml(trail.name)"></h3>
             <div class="row">
               <div class="small-4 columns">
-                <img src="{{trail.thumbnail}}" />                
+                <img src="{{trail.thumbnail}}" />  
+                <hr>
+                <button class ="button" ng-click="viewMap = !viewMap">View Map</button>
+                <div ng-show="!viewMap">
+                  <ng-map center="[{{trail.lat}}, {{trail.lon}}]">
+                    <marker position="[{{trail.lat}}, {{trail.lon}}]" title="marker" animation="Animation.DROP"></marker>
+                  </ng-map>
+                </div>        
               </div>
               <div class="small-8 columns">
                 <h4>Description</h4>
@@ -68,9 +75,6 @@
                 <p ng-bind-html="trustHtml(trail.directions)"></p>
                 <a class="button" href="{{trail.url}}" target="blank">More Info</a>
               </div>
-            </div>
-            <div class="row">
-              
             </div>
           </div>
         </div>
